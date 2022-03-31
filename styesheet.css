@@ -1,0 +1,16 @@
+body{
+    background-color:  #1bb1ec;
+}
+
+fieldset{
+    border: 1px solid rgb(255,232,57);
+  width: 400px;
+  margin:auto;
+    background-color:  #dde1e7;
+    font-family: 'Times New Roman', Times, serif;    
+
+}
+label{
+    width: 240px;
+    display: inline-block;
+}
