@@ -11,7 +11,7 @@
 <body>
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)">Logo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -36,104 +36,110 @@
           <a class="nav-link" href="javascript:void(0)">Link</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button  class=" bi bi-search btn btn-primary" type="button">Search</button>
+      <div class="form">
+        <form class="d-flex" action="http://www.google.com/search">
+          <label for="form-search"></label>
+          <input class="form-control me-2" type="text"  name="q" size="20" id="form-search" placeholder="Search">
+          <input  class=" bi bi-search btn btn-primary" type="button" id="btn" value="Search" onClick="javascript: window.open('https://www.google.com/search?q=' + document.getElementById('form-search').value);" />
+         
+        
       </form>
+      </div>
     </div>
   </div>
 </nav>
-
-
-<div  class="box ">
+<div  class="box1 ">
 
     <img src="banner.jpg" alt="bootstrap" width=100%, >
   
-    <div class="text">
-        <h1>Flying Kites</h1>
+    <div class="text1">
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur suscipit recusandae dolor, asperiores ipsa error temporibus placeat numquam voluptatem 
+            odio dolores autem quam impedit dignissimos voluptatum quia distinctio, deserunt aspernatur.</p>
+            
     </div>
     </div>
-<div class="row mt-4">
 
-<div class=" dv1 col  ">
-<img src="forrest.png" >
+
+<div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="forrest.png" class="d-block" style="width:100%">
+        <br>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+        <br>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+        <br>
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+  </div>
+          <div class="col-sm-4">
+            <div class="p-5 my-5 bg-primary text-white col mt-1 dv2 ">
+              <h2>Subscribe for</h2>
+              <h2>Newsletters</h2>
+              <p>Get latest updates and freebies</p>
+              <form class="p"  action="/action_page.php">
+                <div class="d-grid gap-3" >
+                  <label for="email"></label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                </div>
+                <div class="mt-3 d-grid">
+                  <button type="submit" class="btn btn-warning btn-block">Subscribe Now!</button>
+                </div>
+                
+              </div>
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Archives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2018</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2019</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2020</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Recent Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post One</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post Two</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post Three</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+            </div>
+            
+          </div>
     
 </div>
-<div class="container container-sm border p-5 my-5 bg-primary text-white col mt-1 ">
-    <h2>Subscribe for </h2>
-    <h2>
-        Newsletters
-    </h2>
-    <p>
-        Get latest updates and freebies
-    </p>
-    <form action="/action_page.php">
-      <div class="d-grid gap-3" >
-        <label for="email"></label>
-        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
-      </div>
-      
-      <div class="mt-3 d-grid">
-        <button type="submit" class="btn btn-warning btn-block">Subscribe Now!</button>
-      </div>
-      
-    </div>
+<div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>Copyrights &#169; .All rights reserved</p>
   </div>
-  <div class="row mt-4">
-      <div class=" dv1 col-sm-7">
-          <h3 class="t">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          </h3>
-          <p class="t">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla ab provident quo. In nemo ut, ea quibusdam sequi corporis ad harum assumenda ex debitis dolore numquam voluptate dignissimos mollitia!
-          </p>
-          <h3 class="t">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        </h3>
-        <p class="t">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla ab provident quo. In nemo ut, ea quibusdam sequi corporis ad harum assumenda ex debitis dolore numquam voluptate dignissimos mollitia!
-        </p><h3 class="t">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        </h3>
-        <p class="t">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla ab provident quo. In nemo ut, ea quibusdam sequi corporis ad harum assumenda ex debitis dolore numquam voluptate dignissimos mollitia!
-        </p><h3 class="t">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        </h3>
-        <p class="t">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla ab provident quo. In nemo ut, ea quibusdam sequi corporis ad harum assumenda ex debitis dolore numquam voluptate dignissimos mollitia!
-        </p>
-
-      </div>
-      <div class="col ">
-        <table class="table-primary">
-            <tr class="info" >
-              <th>Firstname</th>
-             
-            </tr>
-            <tr>
-              <td>Peter</td>
-              
-            </tr>
-            <tr>
-              <td>Lois</td>
-              
-            </tr>
-            <tr>
-              <td>Joe</td>
-              
-            </tr>
-            <tr>
-              <td>Cleveland</td>
-              
-          </tr>
-          </table>
-
-      </div>
-
-  </div>
-  
-</div>
 
 </body>
 </html>

@@ -1,0 +1,57 @@
+
+
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+.box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        color: white;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+.dv1 { 
+        margin: 40px;
+      }
+.dv2{
+    margin-right: 40px;
+}
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        
+      }
+      
+      th {
+        background-color:#0d6efd;
+        color: white;
+        
+      }
+      
+      tr:hover {background-color: #34a1a1;}
+      
+    .t{
+        padding-right: 20%;
+    } 
+    
+    .box1{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+.box1 .text1{
+        position: absolute;
+        z-index: 900;
+        margin: 0 auto;
+        color: white;
+        left: 0;
+        right: 30%;
+        top: 10%; /* Adjust this value to move the positioned div up and down */
+        text-align: left;
+        width: 60%; /* Set the width of the positioned div */
+    }
+    .m1{width:inherit!important}
