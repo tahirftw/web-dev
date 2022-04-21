@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+src="lab.js
+"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="my_cal">
+
+        <b> JavaScript Calculator </b><br>
+        <b > a:</b> <input type="number" name="first">
+        
+        <br>
+    
+       
+        <b> b:</b> <input type="number" name="second">
+    
+        <br><br>
+    
+        
+    <input type="button" value="Submit" onclick="javascript:math();">
+   
+
+        <br><br>
+    
+       
+        <b>Addition:</b> <input type="text" name="add">      
+        <br>
+        <b>Subtraction:</b> <input type="text" name="sub">
+        <br>      
+        <b>Multiplication:</b> <input type="text" name="mul">      
+        <br>
+        <b>Division:</b> <input type="text" name="div">  
+        <br>
+    </form>
+    <input type="button" value="CLick here to show confirm alert" onclick="javascript:popup();"> 
+        <br>
+        <p>a. <form name="my_calc">
+
+            <b> JavaScript Min max </b><br>
+            <b > a:</b> <input type="number" name="firstnum">
+            
+            <br>
+        
+           
+            <b> b:</b> <input type="number" name="secondnum">
+            <br>
+            <b > c:</b> <input type="number" name="thirdnum">
+            
+            <br>
+        
+           
+            <b> d:</b> <input type="number" name="fourthnum">
+            <br>
+            <b> d:</b> <input type="number" name="fifthnum">
+        
+            <br><br>
+        
+            
+        <input type="button" value="Submit" onclick="javascript:Min_Max();">
+       
+
+
+
+
+
+
+        
+    
+            <br><br>
+        
+           
+            <b>Min:</b> <input type="text" name="b">      
+            <br>
+            <b>Max:</b> <input type="text" name="c">
+            <br>      
+            <b>Random:</b> <input type="text" name="a">      
+            <br>
+     
+           </form> 
+
+
+
+
+
+
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    <p id="demo1" ></p>
+    <p>
+        It has survived not only five  
+centuries, but also the leap into electronic typesetting, remaining essentially 
+    </p>
+    <p id="demo2">
+       
+    </p>
+    <p>
+         It was popularised in the
+    </p>
+    <p id="demo3"></p>
+    <p>
+         with the release of
+    </p>
+    <p id="demo4"></p>
+    <p>
+        sheets 
+containing Lorem Ipsum passages, and 
+    </p>
+    <p id="demo5"></p>
+    <p>publishing 
+        software like Aldus</p>
+    <p id="demo6">
+
+    </p>
+    <p>
+        including versions 
+    </p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    
+
+
+    <script>
+        let text = "Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+        let result = text.bold();
+        document.getElementById("demo1").innerHTML = result;
+        let text1="Unchnaged"
+        let result1= text1.toUpperCase();
+        let result2=result1.bold()
+        document.getElementById("demo2").innerHTML = result2;
+        let text2 = "1960s";
+        let result3 = text2.bold();
+        document.getElementById("demo3").innerHTML = result3;
+        let text3="letarest"
+        let result4= text3.toUpperCase();
+        let result5=result4.bold()
+        document.getElementById("demo4").innerHTML = result5;
+        let text4 = "more recently with desktop ";
+        let result6 = text4.strike();
+        document.getElementById("demo5").innerHTML = result6;
+        let text5 = "Page Maker";
+        let result7 = text5.link("https://www.google.com/");
+        document.getElementById("demo6").innerHTML = result7;
+        let text6 = "of";
+        let result8 = text6.italics();
+        document.getElementById("demo7").innerHTML = result8;
+        let text7 = "Lorem Ipsum";
+        let result9 = text7.italics();
+        let result10=result9.big();
+        document.getElementById("demo8").innerHTML = result10;
+
+
+    </script>        
+</body>
+
+</html>
